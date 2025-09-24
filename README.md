@@ -21,3 +21,12 @@ Bootstrap 5: A powerful, front-end toolkit for building responsive, mobile-first
 React-Bootstrap (implied): For handling modals and other UI components.
 
 Bootstrap Icons: For the various icons used throughout the application.
+Challenges Faced
+The most significant challenge was seamlessly integrating multiple data manipulation features. The application started with a simple list, but adding search, filter, and pagination introduced a layer of complexity.
+
+I had to ensure that when a user searches for a name or filters by department, the pagination automatically resets to the first page and the total page count adjusts correctly. This required careful management of the application's state and ensuring that the filtering logic was applied before the pagination logic. Handling this in a way that felt smooth and responsive to the user was a key learning experience.
+
+Improvements
+If I had more time to continue working on this project, I would focus on the following improvements:
+
+Data Persistence: The current application uses a mock API, so any changes are not saved permanently.
